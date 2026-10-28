@@ -1,0 +1,10 @@
+# The manifest (SE1/O2): what this runs on. There is no lock because nothing is resolved — the
+# game uses the standard library only, and there is no build backend because it runs from the
+# checkout (`python3 -m splendorous`); packaging is not a goal of v1.
+[project]
+name = "splendorous"
+version = "0.1.0"
+description = "Learn the software-engineering guide by playing it: a Splendor Duel and Compile mash-up."
+requires-python = ">=3.9"
+dependencies = []
+license = { text = "MIT" }
