@@ -1,0 +1,3 @@
+# Scripts and Markdown are LF everywhere: a CRLF checkout would change AGENTS.md's hash (which
+# `se --doctor` compares with the release's) and break the `se` and `check.sh` wrappers.
+* text=auto eol=lf
