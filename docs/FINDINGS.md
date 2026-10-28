@@ -86,8 +86,8 @@ found it, not who should have asked
 ## 2026-10-28 — The doctor found 40 citations with no version
 
 - **What happened:** the first `./se --doctor` run over the staged files reported 40 unversioned
-  requirement citations: every list like `REQ1/TURN-3, TURN-4` carried the version once and
-  then dropped it, in the design, the queue, the code's docstrings, and the tests.
+  requirement citations: every list of IDs carried the version on its first ID and then
+  dropped it from the rest, in the design, the queue, the code's docstrings, and the tests.
 - **Kind:** K3 — each read as cited; a search for `REQ1/TURN-4` would have missed most of them.
 - **Cost:** ten minutes with a script.
 - **Findable by:** the doctor, which found it; the habit it enforces is
